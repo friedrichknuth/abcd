@@ -6,7 +6,7 @@ Repo to demo GenAI
 Clone the repository and install in editable mode:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/friedrichknuth/abcd.git
 cd abcd
 pip install -e .
 ```
@@ -14,7 +14,7 @@ pip install -e .
 Or install directly from the repository URL:
 
 ```bash
-pip install git+<repo-url>
+pip install git+https://github.com/friedrichknuth/abcd.git
 ```
 
 ## Usage
