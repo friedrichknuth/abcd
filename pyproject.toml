@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abcd"
+version = "0.1.0"
+description = "Demo library for glacier data queries and plotting"
+requires-python = ">=3.9"
+dependencies = [
+    "contextily",
+    "geopandas",
+    "requests",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["abcd*"]
